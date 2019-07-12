@@ -67,7 +67,8 @@ font-size: 1.6rem;
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Copy-of-sexist-796x417.png");
     background-size: 1000px 400px;
     background-repeat: no-repeat;
- }
+    z-index: -12;
+    }
 .article1 h2{
     font-size: 4rem;
     font-family: sans-serif;
@@ -162,37 +163,73 @@ list-style: none;
 }
 .latest-funding{
     width: 100%;
-    margin: 1rem;
     text-align: start;
-    float: left;
     font-size: 2.8rem;
-    border-color: rgb(250, 88, 23);
+    color: #f42;
 }
-.funding p:before{
-    content:"\f02b";
+.latest-funding h2{
+    position: relative;
+    top:7rem;
+}
+.lat-sub{
+position: relative;
+left:81rem;
+font-size: 1.6rem;
 }
 .funding{
 float:left;
 list-style: none;
-   box-sizing: border-box;
-   width:23%;
+width:24%;
+margin:0.4rem;
+font-size: 1.2rem;
+color: #aaa;
 }
 
 .funding h4{
-font-size: 1.6rem;
+font-size: 1.8rem;
 font-family: Arial, Helvetica, sans-serif;
 background-color: orangered;
+padding: 1.6rem;
+color: white;
+margin:0;
+box-sizing: border-box;
+position: relative;
+top:-4.2rem;
+left:0;
+z-index: -3;
+text-align: center;
 }
-.funding h4:first-child{
-    color:white;
-   
+.funding img{
+    position:relative;
+    top:3rem;
+    left:2rem;
+    width:6rem;
+    height:6rem;
+    color: #aaa;
+}
+.funding h5{
+    color: black;
+    font-size: 1.8rem;
+    position: relative;
+    margin-top: -5rem;
+    text-align: center;
+}
+.funding h6{
+    text-align: center;
+    position: relative;
+    top:-2.5rem;
+}
+.funding a{
+    text-decoration: none;
 }
 .price{
     font-size: 1.6rem;
 font-family: Arial, Helvetica, sans-serif;
 background-color: rgb(245, 166, 234);
 }
-
+.more-news{
+    background-image: url("")
+}
 /* END of styling the main */
 
 /* BEGIN of styling the footer */
