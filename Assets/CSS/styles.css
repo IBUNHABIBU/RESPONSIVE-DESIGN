@@ -64,9 +64,9 @@ font-size: 1.6rem;
     font-size: 1.4rem;
 }
 .article1{
-  background-size: 800px 400px;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Copy-of-sexist-796x417.png");
+    background-size: 1000px 400px;
     background-repeat: no-repeat;
-    background: rgb(245, 77, 208);
  }
 .article1 h2{
     font-size: 4rem;
@@ -82,6 +82,17 @@ font-size: 1.6rem;
     font-size: 2rem;
     font-family: helvetica;
 }
+.side1{
+    
+   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Untitled-design-68-796x417.jpg");
+  
+   }
+   
+.side2{
+    
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/streaming-platforms_money-796x425.png");
+   z-index:-3;
+    }
 /*styling the second section */
 .news li{
     float:left;
@@ -91,16 +102,47 @@ font-size: 1.6rem;
    width:23%;
    text-align: start;
    margin: 1rem;
-   background-image: url("&quot;https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/sale_19316_primary_image_wide-540x270.jpg&quot");
-    background-size: 800px 400px;
+  background-size: 800px 400px;
 }
 .latest-caption li {
     display: inline;
     position:relative;
     left:1rem;
     font-size:1.2rem;
-    background-image: url("../images/cover-gradient.png");
+    background-image: url("");
 list-style: none;
+}
+.latest-funding{
+    width: 100%;
+    margin: 1rem;
+    text-align: start;
+    float: left;
+    font-size: 2.8rem;
+    border-color: rgb(250, 88, 23);
+}
+.funding p:before{
+    content:"\f02b";
+}
+.funding{
+float:left;
+list-style: none;
+   box-sizing: border-box;
+   width:23%;
+}
+
+.funding h4{
+font-size: 1.6rem;
+font-family: Arial, Helvetica, sans-serif;
+background-color: orangered;
+}
+.funding h4:first-child{
+    color:white;
+   
+}
+.price{
+    font-size: 1.6rem;
+font-family: Arial, Helvetica, sans-serif;
+background-color: rgb(245, 166, 234);
 }
 
 /* END of styling the main */
