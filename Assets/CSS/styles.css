@@ -104,6 +104,54 @@ font-size: 1.6rem;
    margin: 1rem;
   background-size: 800px 400px;
 }
+.news1{
+
+    background:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/instagram-story-stories-spam-mute-478x270.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height:20rem;
+}
+.news2{
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Sonny-hed-513x270.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height:20rem;
+}
+.news3{
+   background-image:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Email-405x270.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   height:20rem;
+}
+.news4{
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/facebook-icon-hed-514x270.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height:20rem;
+}
+.news5{
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/sale_20160_primary_image_wide-540x270.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height:20rem;
+
+}
+.news6{
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/sale_20155_primary_image_wide-540x270.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height:20rem;
+}
+.news7{
+    background-image:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/instagram-story-stories-spam-mute-478x270.jpg");
+    height:20rem;
+}
+.news8{
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Untitled-design-68-516x270.jpg");    
+    background-position: center;
+    background-repeat: no-repeat;
+    height:20rem;
+}
 .latest-caption li {
     display: inline;
     position:relative;
