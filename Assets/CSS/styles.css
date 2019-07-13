@@ -183,6 +183,11 @@ width:24%;
 margin:0.4rem;
 font-size: 1.2rem;
 color: #aaa;
+background: rgb(250, 223, 223);
+z-index: -5;
+height:27rem;
+position:relative;
+top:2rem;
 }
 
 .funding h4{
@@ -194,9 +199,9 @@ color: white;
 margin:0;
 box-sizing: border-box;
 position: relative;
-top:-4.2rem;
+top:-6.2rem;
 left:0;
-z-index: -3;
+z-index: 2;
 text-align: center;
 }
 .funding img{
@@ -206,6 +211,7 @@ text-align: center;
     width:6rem;
     height:6rem;
     color: #aaa;
+    z-index: 100;
 }
 .funding h5{
     color: black;
@@ -222,10 +228,14 @@ text-align: center;
 .funding a{
     text-decoration: none;
 }
+.funding p{
+
+}
 .price{
     font-size: 1.6rem;
 font-family: Arial, Helvetica, sans-serif;
-background-color: rgb(245, 166, 234);
+background-color:rgba(255, 68, 34, 0.08);
+z-index: 200;
 }
 .more-news{
 width:30%;
@@ -251,8 +261,70 @@ margin:1rem;
     color: #aaa;
 }
 .latest-div{
-    width:40%;
+    width:40rem;
 }
+..news-pic1{
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Switch-Lite.jpg");
+background-size: 10rem 10rem;
+background-position: center;
+background-repeat: no-repeat;
+}
+..news-pic2{
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Untitled-design-70.jpg");
+    background-size: 10rem 10rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.news-pic3{
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/Chrome-Sites.jpg");
+    background-size: 10rem 10rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.news-pic4{
+background-image:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/firefox-stop-cryptojacking-bitcoin-mining-cryptocurrency-monero-blockchain-mozilla.jpg");
+background-size: 10rem 10rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.news-pic5{
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Microsoft-Card-Games.jpg");
+    background-size: 10rem 10rem;
+    background-position: center;
+    background-repeat: no-repeat; 
+    position: relative;
+}
+
+.news-pic6{
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Copy-of-sexist.png");
+    background-size: 10rem 10rem;
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+
+.news-pic3{
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Google-News.jpg");
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+.news-pic8{
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Google-News.jpg");
+    background-size: 10rem 10rem;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.more-news a{
+background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/CHEAPPlayStation.png");
+background-size: 10rem 10rem;
+    background-position: center;
+    background-repeat: no-repeat; 
+    position: relative;
+    left:10rem;
+}
+
 .news-latest-head{
     font-size: 1.3rem;
     color:red;
