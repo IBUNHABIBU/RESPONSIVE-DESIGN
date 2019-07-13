@@ -262,6 +262,9 @@ margin:1rem;
 }
 .latest-div{
     width:40rem;
+background-color: #ffebfb;
+height:10rem;
+padding-left: 1rem;
 }
 .latest-div img{
 background-size: 10rem 10rem;
@@ -269,18 +272,31 @@ background-position: center;
 background-repeat: no-repeat;
 width:10rem;
 height:9rem;
+position:relative;
+left:29.7rem;
+top:-8.5rem;
 }
 .news-latest-head{
     font-size: 1.3rem;
     color:red;
+    font-family:Helvetica, sans-serif,Arial;
 }
 .news-latest-main{
     font-size: 1.4rem;
     color:red;
+    font-family:  Helvetica, sans-serif,Arial;
+    width:70%;
 }
 .more-news ul{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3rem;
+    color:#ec2727; 
+    line-height: 3rem;
+}
+.more-news ul li{
+    font-size: 1.3rem;
+    color: #8f8a8a;
+    border-bottom: 0.003rem solid  #dfdddd;
 }
 .more-news1{
 background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/carltondance-796x447.jpg");
