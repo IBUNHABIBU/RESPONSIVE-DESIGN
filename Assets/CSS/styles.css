@@ -263,68 +263,13 @@ margin:1rem;
 .latest-div{
     width:40rem;
 }
-..news-pic1{
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Switch-Lite.jpg");
+.latest-div img{
 background-size: 10rem 10rem;
 background-position: center;
 background-repeat: no-repeat;
+width:10rem;
+height:9rem;
 }
-..news-pic2{
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Untitled-design-70.jpg");
-    background-size: 10rem 10rem;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.news-pic3{
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/Chrome-Sites.jpg");
-    background-size: 10rem 10rem;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.news-pic4{
-background-image:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/firefox-stop-cryptojacking-bitcoin-mining-cryptocurrency-monero-blockchain-mozilla.jpg");
-background-size: 10rem 10rem;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.news-pic5{
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Microsoft-Card-Games.jpg");
-    background-size: 10rem 10rem;
-    background-position: center;
-    background-repeat: no-repeat; 
-    position: relative;
-}
-
-.news-pic6{
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Copy-of-sexist.png");
-    background-size: 10rem 10rem;
-    background-position: center;
-    background-repeat: no-repeat;  
-}
-
-.news-pic3{
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Google-News.jpg");
-    background-position: center;
-    background-repeat: no-repeat; 
-}
-.news-pic8{
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Google-News.jpg");
-    background-size: 10rem 10rem;
-    background-position: center;
-    background-repeat: no-repeat; 
-}
-
-.more-news a{
-background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/CHEAPPlayStation.png");
-background-size: 10rem 10rem;
-    background-position: center;
-    background-repeat: no-repeat; 
-    position: relative;
-    left:10rem;
-}
-
 .news-latest-head{
     font-size: 1.3rem;
     color:red;
@@ -352,7 +297,9 @@ height:20rem;
 }
 .more-news3{
     background-image:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/instagram-story-stories-spam-mute-478x270.jpg");
-    height:20rem; 
+    height:20rem;
+    background-position: center;
+    background-repeat: no-repeat; 
 }
 .more-news4{
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Untitled-design-68-516x270.jpg");    
@@ -367,18 +314,18 @@ height:20rem;
     height:20rem;
 }
 .more-news6{
-    background:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Orion-Doom-Bethesda-hed-796x420.jpg");
+     background:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Orion-Doom-Bethesda-hed-796x420.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    height:20rem;
+    height:20rem; 
     
 }
-.more-news7{
+ .more-news7{
     background:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Steam-Labs-796x417.jpg");
     background-position: center;
     background-repeat: no-repeat;
     height:20rem;
-}
+} 
 .more-news8{
     background:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/instagram-story-stories-spam-mute-478x270.jpg");
     background-position: center;
