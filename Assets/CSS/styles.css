@@ -348,6 +348,13 @@ height:20rem;
     background-repeat: no-repeat;
     height:20rem;
 }
+.story-div{
+    float:left;
+}
+.story-div img{
+    width:30rem;
+    height:20rem;
+}
 /* END of styling the main */
 
 /* BEGIN of styling the footer */
