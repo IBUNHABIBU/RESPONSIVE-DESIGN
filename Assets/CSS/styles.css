@@ -421,17 +421,29 @@ display:block;
 /* END of styling the main */
 
 /* BEGIN of styling the footer */
+.first-footer{
+    display:flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
 .first-footer li{
-display:inline-block;
 list-style: none;
 font-size: 1.3rem;
 font-family: Helvetica,Arial, sans-serif;
 color:white;
+margin:1rem;
 }
 .last-footer li{
 font-size: 1.3rem;
 color:white;
-display:inline-block;
+margin-left:1rem;
+}
+.last-footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+padding-bottom: 2rem;
 }
 footer{
 background-color: black;
