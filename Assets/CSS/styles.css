@@ -197,10 +197,6 @@ z-index: 200;
 position: relative;
 top:-1.2rem;
 }
-
-.deals{
-    
-}
 .deals h2 a{
     font-size: 2.8rem;
     color: #f42;
@@ -357,7 +353,7 @@ height:20rem;
     width:11rem;
 }
 .latest-caption li:first-child{
-    width:16rem;
+    width:16rem; 
     margin-left:0;
 }
 .story-div h4{
@@ -463,7 +459,5 @@ background-color: black;
 
 /*Media query */
 /*for tablet*/
-@media screen and (max-width:800px){
-
-}
+@media screen (wid)
     
