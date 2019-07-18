@@ -535,14 +535,20 @@ height:100%;
         padding-left:0;
     }
     .news8{
-
+    height: 27rem;
+    }
+    li.news8 img{
+        height:8rem;
+    }
+    .news8 h4{
+        font-size: 1rem;
     }
     ul .news{
         width:30%;
     }
     .sect2 {
         width:52%;
-        height:10%;
+    
     }
     .secondnav a{
         font-size: 0.7rem;
@@ -553,5 +559,19 @@ height:100%;
         top:4rem;
         font-size: 1.2rem;
     }
+    
+.funding{
+
+    width:28%;
+    margin:0.4rem;
+    font-size: 1.2rem;
+    color: rgb(136, 134, 134);
+    background: rgb(250, 223, 223);
+    z-index: -5;
+    height:27rem;
+    position:relative;
+    top:0;
+    }
+    
 }
     
