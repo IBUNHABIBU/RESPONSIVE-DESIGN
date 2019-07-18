@@ -106,12 +106,14 @@ font-size: 1.6rem;
     background-position:center, left top;
 }
 /*styling the second section */
-.news li{
-    float:left;
+.news {
+    display:grid;
+    grid-template-columns:repeat(4,auto);
     list-style: none;
    font-size: 1.4rem;
    box-sizing: border-box;
-   width:23%;
+   width:97%;
+   grid-gap: 1rem;
    text-align: start;
    margin: 1rem;
   background-size: 80rem 40rem;
@@ -481,26 +483,75 @@ background-color: black;
 /*for tablet*/
 @media screen and (max-width:768px){
     nav {
-        width:100%;
+        width:47%;
         margin:0;
     }
+    nav ul li{
+        font-size: 0.5rem;
+    }
+   nav .logo img{
+       display: block;
+        width:6rem;
+        position:relative;
+z-index: 100;
+    }
     .sect1{
-      
+      width:33%;
+    
     }
     .article1{
 background-image:url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Copy-of-sexist.png), url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png);
 background-position: left top,center;
+width:93%;
+height:100%;
+    }
+    .the-head{
+    position: relative;
+    top:9.9rem;
+    }
+    .article1 h2{
+        font-size: 1.6rem;
     }
     .side{
+        height: 16%;
         width:100%;
-        height: 20rem;
+        
+    }
+    .side h2{
+        font-size: 1.2rem;
     }
     .article1 .logo img{
         display:none;
     }
+  
+    .latest-fund h2{
+        display:none;
+    }
+    .news{
+        float: none;
+        display:grid;
+        grid-template-columns: repeat(3,30%);
+        grid-gap: 1rem;
+        padding-left:0;
+    }
     .news8{
-        float:left;
-        width:40rem;
+
+    }
+    ul .news{
+        width:30%;
+    }
+    .sect2 {
+        width:52%;
+        height:10%;
+    }
+    .secondnav a{
+        font-size: 0.7rem;
+    }
+    .fa-search{
+        position: absolute;
+        right:42rem;
+        top:4rem;
+        font-size: 1.2rem;
     }
 }
     
