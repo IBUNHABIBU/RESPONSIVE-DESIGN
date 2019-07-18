@@ -280,6 +280,14 @@ top:-10.4rem;
     color: #8f8a8a;
     border-bottom: 0.003rem solid  #dfdddd;
 }
+.the-news h3{
+    position: relative;
+    padding-top:1rem;
+}
+.the-news h4{
+    position: relative;
+    padding-top:4rem;
+}
 .more-news1{
 background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/carltondance-796x447.jpg");
 background-repeat: no-repeat;
