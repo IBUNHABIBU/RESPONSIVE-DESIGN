@@ -18,6 +18,9 @@ nav ul li a{
     text-decoration: none;
     color:white;
 }
+nav .logo{
+    display:none;
+}
 .secondnav ul li{
 display: inline-block;
 list-style: none;
@@ -62,12 +65,19 @@ font-size: 1.6rem;
 .sect1 h4{
     font-size: 1.4rem;
 }
+.article1 .logo{
+    width:35%;
+    margin-top:0.5rem;
+    margin-left: 1.9rem;
+}
 .article1{
-    background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png),url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg),url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png),url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Copy-of-sexist-796x417.png);
-    background-size:cover;
-    background-position: right top, left top,right top;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png),url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Copy-of-sexist-796x417.png),url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png);
+   background-size:cover;
+    background-position: right top, right bottom,left bottom;
     background-repeat: no-repeat;
+    opacity: 0.9;
     z-index: -12;
+    padding-left: 1.5rem;
     }
 .article1 h2{
     font-size: 4rem;
@@ -77,6 +87,7 @@ font-size: 1.6rem;
     background-color: rgb(164, 161, 167);
     padding-top:1rem;
     padding-bottom: 0.5rem;
+    height:20rem;
 }
 .side h2
 {
@@ -289,20 +300,21 @@ top:-10.4rem;
     padding-top:4rem;
 }
 .more-news1{
-background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/carltondance-796x447.jpg");
+background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/05/carltondance-796x447.jpg");
 background-repeat: no-repeat;
 background-position: center;
 height:20rem;
+
 }
 .more-news2{
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/sale_20155_primary_image_wide-540x270.jpg");
-    background-position: center;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/sale_20155_primary_image_wide-540x270.jpg");
+    background-position: right top;
     background-repeat: no-repeat;
     height:20rem;
 
 }
 .more-news3{
-    background-image:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/instagram-story-stories-spam-mute-478x270.jpg");
+    background-image:url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/06/bluetooth-540x270.png);
     height:20rem;
     background-position: center;
     background-repeat: no-repeat; 
@@ -333,7 +345,7 @@ height:20rem;
     height:20rem;
 } 
 .more-news8{
-    background:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/instagram-story-stories-spam-mute-478x270.jpg");
+    background:url(https://i.ytimg.com/vi/JXpoALotxf0/hqdefault.jpg);
     background-position: center;
     background-repeat: no-repeat;
     height:20rem;
@@ -473,10 +485,22 @@ background-color: black;
         margin:0;
     }
     .sect1{
-        width:70%;
+      
+    }
+    .article1{
+background-image:url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Copy-of-sexist.png), url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png);
+background-position: left top,center;
     }
     .side{
         width:100%;
+        height: 20rem;
+    }
+    .article1 .logo img{
+        display:none;
+    }
+    .news8{
+        float:left;
+        width:40rem;
     }
 }
     
