@@ -48,6 +48,7 @@ font-size: 1.6rem;
     color:white;
     grid-gap: 1rem;
     
+    
 }
 
 .sect1 p{
@@ -62,8 +63,9 @@ font-size: 1.6rem;
     font-size: 1.4rem;
 }
 .article1{
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Copy-of-sexist-796x417.png");
-    background-size: 100rem 40rem;
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png),url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg),url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png),url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Copy-of-sexist-796x417.png);
+    background-size:cover;
+    background-position: right top, left top,right top;
     background-repeat: no-repeat;
     z-index: -12;
     }
@@ -83,13 +85,14 @@ font-size: 1.6rem;
 }
 .side1{
     
-   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Untitled-design-68-796x417.jpg");
-  opacity:1;
+   background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png),url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Untitled-design-68-796x417.jpg);
+  background-position:center, left top;
   
    }
    
 .side2{
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/streaming-platforms_money-796x425.png");
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/streaming-platforms_money-796x425.png");
+    background-position:center, left top;
 }
 /*styling the second section */
 .news li{
@@ -458,11 +461,14 @@ background-color: black;
 /*for tablet*/
 @media screen and (max-width:768px){
     nav {
-        width:50%;
+        width:100%;
         margin:0;
     }
     .sect1{
-        width:30%;
+        width:70%;
+    }
+    .side{
+        width:100%;
     }
 }
     
