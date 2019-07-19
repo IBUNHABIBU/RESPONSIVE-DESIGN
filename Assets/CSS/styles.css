@@ -611,7 +611,8 @@ height:100%;
     }
     
     .last-article{
-       display:inline-block;
+       display:grid;
+       grid-template-columns: 1fr 1fr;
     }
     
     .the-news{
@@ -731,5 +732,17 @@ li.news8{
 }
 .funding img{
     width:20%;
+}
+.more-news{
+    float:none;
+    width:85%;
+}
+.latest-div{
+    width:100%;
+}
+.latest-div img{
+    position: relative;
+    left:19rem;
+    padding-top: 1.2rem;
 }
 }
