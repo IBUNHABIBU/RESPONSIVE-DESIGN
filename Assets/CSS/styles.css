@@ -785,6 +785,8 @@ footer{
 .last-footer{
 display:inline-block;
 height: 10rem;
+text-align: center;
+padding-left: 5rem;
 }
 .last-footer li{
     float:left;
