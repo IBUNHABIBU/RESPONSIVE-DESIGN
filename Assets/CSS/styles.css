@@ -392,12 +392,12 @@ height:20rem;
     font-size: 1.4rem;
     width:96%;
 }
-#last-price{
+.last-price{
 font-size: 1.2rem;
 text-decoration:line-through;
 margin-left:1rem;
 }
-#curr-price{
+.curr-price{
 font-size: 1.4rem;
 }
 
@@ -432,7 +432,7 @@ font-family: Helvetica,Arial, sans-serif;
 color:white;
 margin:1rem;
 }
-.last-footer li{
+.last-footer p{
 font-size: 1.3rem;
 color:white;
 margin-left:1rem;
@@ -445,6 +445,10 @@ margin-left:1rem;
     flex-direction: row;
     justify-content: center;
 padding-bottom: 2rem;
+}
+.foote-logo{
+    width:10rem;
+    height:10rem;
 }
 footer{
 background-color: black;
