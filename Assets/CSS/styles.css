@@ -9,7 +9,6 @@ nav ul li{
     font-size:1.4rem;
     padding: 1rem;
     list-style: none;
-    padding: 1rem;
 }
 nav {
     background-color: black;
@@ -39,7 +38,7 @@ font-size: 1.6rem;
     font-size: 2rem;
     position:absolute;
     right:2rem;
-    top:6rem;
+    top:7.5rem;
     color: rgb(145, 144, 144);
 }
 /* END of styling the header */
@@ -52,9 +51,6 @@ font-size: 1.6rem;
     grid-template-columns: 80% 60%;
     width:70%;
     color:white;
-    grid-gap: 1rem;
-    
-    
 }
 
 .sect1 p{
@@ -114,15 +110,10 @@ font-size: 1.6rem;
     grid-template-columns:repeat(4,auto);
     list-style: none;
    font-size: 1.4rem;
-   box-sizing: border-box;
    width:97%;
-   grid-gap: 1rem;
    text-align: start;
    margin: 1rem;
   background-size: 80rem 40rem;
-}
-.news h4{
-    font-size: 
 }
 .latest-caption li {
     display: inline;
@@ -172,7 +163,6 @@ background-color: orangered;
 padding: 1.6rem;
 color: white;
 margin:0;
-box-sizing: border-box;
 position: relative;
 top:-6.2rem;
 left:0;
@@ -226,7 +216,7 @@ top:-1.2rem;
  content:">";
 font-size: 2.8rem;
 }
-#s-all{
+.s-all{
     font-size: 1.6rem;
     color: #f42;
     display:flex;
@@ -366,7 +356,7 @@ height:20rem;
 /* .latest-caption{
     margin-left: -3.9rem;
     margin-top:-2rem; */
-}
+
 .latest-caption li{
     float:left;
     margin-left: 0;
@@ -408,9 +398,6 @@ display:block;
 }
 .clear-fix:after{
     clear: both;
-}
-.group{
-
 }
 .final-articles{
     display:grid;
@@ -473,11 +460,10 @@ background-color: black;
     display: grid;
     height: 40px;
     width: 40px;
-
     color: white;
     background-color: #333;
-    border-radius: 50%;
     place-content: center;
+    border-radius: 50%;
     box-sizing: border-box;
 }
 
@@ -537,7 +523,7 @@ height:100%;
         float: none;
         display:grid;
         grid-template-columns: repeat(3,29%);
-        grid-gap: 1rem;
+       
         padding-left:0;
     }
     .news8{
@@ -592,7 +578,7 @@ height:100%;
         position: relative;
         top:1.4rem;
     }
-    #stroke{
+    .stroke{
         display:none;
     }
  .price h6{
