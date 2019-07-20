@@ -437,6 +437,9 @@ font-size: 1.3rem;
 color:white;
 margin-left:1rem;
 }
+.last-footer img{
+    width:3%;
+}
 .last-footer{
     display:flex;
     flex-direction: row;
@@ -526,9 +529,6 @@ height:100%;
         display:none;
     }
   
-    .latest-fund h2{
-        display:none;
-    }
     .news{
         float: none;
         display:grid;
@@ -576,7 +576,7 @@ height:100%;
     }
     
     .latest-funding h2{
-      
+    
     }
     .lat-sub{
         display:flex;
@@ -586,7 +586,7 @@ height:100%;
         margin-top: 0;
         padding-top: 0;
         position: relative;
-        top:-5rem;
+        top:1.4rem;
     }
     #stroke{
         display:none;
@@ -596,23 +596,16 @@ height:100%;
     }
     .funding img{
         height:20%; 
-        width:40%;
+        width:18%;
         position: relative;
         top:2rem;
-        left:4.4rem;
+        left:2.4rem;
     }
     .funding h4{
         font-size: 1.2rem;
     }
-    .funding4{
-    }
     .more-news{
         width:40%;
-    }
-    
-    .last-article{
-       display:grid;
-       grid-template-columns: 1fr 1fr;
     }
     
     .the-news{
@@ -744,5 +737,50 @@ li.news8{
     position: relative;
     left:19rem;
     padding-top: 1.2rem;
+}
+.final-articles{
+    display:block;
+}
+.story-div img{
+    width:25%;
+    height:7.9rem;
+    float: left;
+}
+.story-div h4,p{
+    width:68%;
+    line-height: 2rem;
+}
+.story-div{
+    width:100%;
+}
+footer{
+    width:100%;
+}
+.first-footer{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.first-footer li{
+    margin: 0;
+    padding:0.2rem;
+    font-size: 1.2rem;
+}
+.last-footer{
+display:inline-block;
+height: 10rem;
+}
+.last-footer li{
+    float:left;
+}
+.last-footer li{
+    width:100%;
+    margin: 0;
+    padding:0;
+    list-style: none;
+    
+}
+.first-footer li:nth-child(3){
+display:none;
 }
 }
