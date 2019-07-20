@@ -575,8 +575,8 @@ height:100%;
     width:30%;
     }
     
-    .latest-funding h2{
-    
+    .funding4{
+    display:none;
     }
     .lat-sub{
         display:flex;
@@ -636,9 +636,6 @@ height:100%;
         line-height: 1.2rem;
         padding-left: 0;
     }
-.story-div{
-   
-}
 .final-articles{
     display: grid;
     grid-template-columns: repeat(3 ,33%);
@@ -653,6 +650,7 @@ footer{
 .fa-bars{
     position: absolute;
     font-size: 2rem;
+    right:1rem;
 }
 nav ul{
     display:none;
@@ -664,21 +662,50 @@ nav ul{
 .fa-search{
     display:block;
     position: absolute;
-    left:0;
+    right:5rem;
+    font-size: 2rem;
+    top:2rem;
 }
 .sect1{
     display:block;
     width:99%;
+    padding-top: 1rem;
 }
 .article1{
   height:31rem;
-  width:100%;
-  margin: 2rem;
- 
+  width:90%;
+margin-left: 1rem;
+}
+.article1 h4{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.article1 a{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.side h4{
+font-weight: bold;
+font-size: 2rem;
+}
+
+.side a{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.side p{
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.article1 p{
+    font-weight: bold;
+    font-size: 1rem;
 }
 .side{
     height:31rem;
-    width:100%;
+    width:90%;
     margin: 2rem;
     
 }
@@ -714,7 +741,6 @@ li.news8{
 }
 .lat-sub{
    position: relative;
-   
    top:1.5rem;
 }
 .funding-wrapper{
@@ -782,5 +808,22 @@ height: 10rem;
 }
 .first-footer li:nth-child(3){
 display:none;
+}
+.logo img{
+    position: relative;
+    top:2rem;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+nav .logo{
+    display:block;
+    width:10%;
+    color:red;
+}
+nav{
+ background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png),url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png);
+ background-position: left top,left bottom;
+    height:5rem;
+    width:25%;
 }
 }
