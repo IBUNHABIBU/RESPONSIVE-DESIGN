@@ -635,12 +635,15 @@ footer{
 }
 }
 /* Media query for phone */
-@media only screen and (max-width:360px)
+@media only screen and (max-width:480px)
 {
 .fa-bars{
     position: absolute;
     font-size: 2rem;
     right:1rem;
+    color:#FF4422;
+    padding:1.6rem;
+    top:0.5rem;
 }
 nav ul{
     display:none;
@@ -652,17 +655,22 @@ nav ul{
 .fa-search{
     display:block;
     position: absolute;
-    right:5rem;
+    right:5.9rem;
     font-size: 2rem;
-    top:2rem;
+    top:0.2rem;
+    border-left: 0.01rem solid rgb(236, 236, 236);
+    border-right: 0.01rem solid rgb(236, 236, 236);
+    padding:1.6rem;
+    margin-top: 0;
 }
 .sect1{
     display:block;
     width:99%;
-    padding-top: 1rem;
+    padding-top: 0;
+    margin-top: -2.7rem;
 }
 .article1{
-  height:31rem;
+  height:38rem;
   width:90%;
 margin-left: 1rem;
 }
@@ -813,9 +821,10 @@ nav .logo{
     color:red;
 }
 nav{
- background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png),url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png);
- background-position: left top,left bottom;
+    background-color: #f42;
+    background: linear-gradient(to bottom right,#c09,#f42 85%);
     height:5rem;
     width:25%;
+    padding-left: 1rem;
 }
 }
