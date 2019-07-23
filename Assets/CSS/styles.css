@@ -478,13 +478,13 @@ background-color: black;
     
 @media screen and (max-width:768px){
     nav {
-       margin-left: 14rem;
+       margin-left: 12rem;
     }
     nav ul li{
        
     }
     .secondnav{
-      margin-left:14rem;
+      margin-left:12rem;
     }
     
     .secondnav a{
@@ -515,15 +515,22 @@ height:100%;
         font-size: 1.6rem;
     }
     .side{
-        height: 16%;
-        width:100%;
-        
+        height: 26%;
+        width:130%;
     }
     .side h2{
         font-size: 1.2rem;
     }
     .article1 .logo img{
         display:block;
+        width:55%;
+    height:5rem;
+    background-color: #f42;
+    background: linear-gradient(to bottom right,#c09,#f42 85%);
+    padding:2rem;
+    position: relative;
+    top:-11rem;
+        left:-2rem;
     }
   
     .news{
@@ -553,9 +560,6 @@ height:100%;
     .sect2 {
         width:52%;
     
-    }
-    .fa-search{
-      
     }
     .sect2{
         width:100%;
