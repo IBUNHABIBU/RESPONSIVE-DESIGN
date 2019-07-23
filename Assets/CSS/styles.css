@@ -478,13 +478,13 @@ background-color: black;
     
 @media screen and (max-width:768px){
     nav {
-       
+       margin-left: 14rem;
     }
     nav ul li{
        
     }
     .secondnav{
-      
+      margin-left:14rem;
     }
     
     .secondnav a{
@@ -494,8 +494,8 @@ background-color: black;
         
     }
     nav .logo{
-        display:block;
-        width:10%;
+        display:none;
+       
     }
     .sect1{
       width:59%;
@@ -523,14 +523,13 @@ height:100%;
         font-size: 1.2rem;
     }
     .article1 .logo img{
-        display:none;
+        display:block;
     }
   
     .news{
         float: none;
         display:grid;
         grid-template-columns: repeat(3,29%);
-       
         padding-left:0;
     }
     .news8{
