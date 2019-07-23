@@ -478,17 +478,24 @@ background-color: black;
     
 @media screen and (max-width:768px){
     nav {
-        width:100%;
-        margin:0;
+       
     }
     nav ul li{
-        font-size: 0.5rem;
+       
     }
-   nav .logo img{
-       display: block;
-        width:6rem;
-        position:relative;
-z-index: 100;
+    .secondnav{
+      
+    }
+    
+    .secondnav a{
+       
+    }
+    .logo img{
+        
+    }
+    nav .logo{
+        display:block;
+        width:10%;
     }
     .sect1{
       width:59%;
@@ -548,14 +555,8 @@ height:100%;
         width:52%;
     
     }
-    .secondnav a{
-        font-size: 0.7rem;
-    }
     .fa-search{
-        position: absolute;
-        right:42rem;
-        top:4rem;
-        font-size: 1.2rem;
+      
     }
     .sect2{
         width:100%;
@@ -811,11 +812,13 @@ display:none;
 }
 .logo img{
     position: relative;
-    top:2rem;
+    left:1rem;
+    top:-2rem;
     margin-bottom: 0;
     padding-bottom: 0;
+   
 }
-nav .logo{
+ .logo{
     display:block;
     width:10%;
     color:red;
@@ -824,7 +827,7 @@ nav{
     background-color: #f42;
     background: linear-gradient(to bottom right,#c09,#f42 85%);
     height:5rem;
-    width:25%;
-    padding-left: 1rem;
+    width:35%;
+    margin-left: 0;
 }
 }
