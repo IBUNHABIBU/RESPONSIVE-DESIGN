@@ -92,6 +92,13 @@ font-size: 1.6rem;
 {
     font-size: 2rem;
     font-family: helvetica;
+    margin-left: 1rem;
+}
+.side h4{
+    margin-left:1rem;
+}
+.side p{
+    margin-left:1rem;
 }
 .side1{
     
@@ -110,7 +117,7 @@ font-size: 1.6rem;
     grid-template-columns:repeat(4,auto);
     list-style: none;
    font-size: 1.4rem;
-   width:97%;
+   width:95%;
    text-align: start;
    margin: 1rem;
   background-size: 80rem 40rem;
@@ -479,12 +486,14 @@ background-color: black;
 @media screen and (max-width:768px){
     nav {
        margin-left: 12rem;
+       width:80%;
     }
-    nav ul li{
-       
+    .fa-search{
+        padding-left: 2rem;
     }
     .secondnav{
       margin-left:12rem;
+      width:80%;
     }
     
     nav .logo{
@@ -498,21 +507,38 @@ background-color: black;
 background-image:url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Copy-of-sexist.png), url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png);
 background-position: left top,center;
 width:93%;
-height:100%;
+height:49.9rem;
     }
     .the-head{
     position: relative;
     top:9.9rem;
     }
-    .article1 h2{
+    .article1 a{
+        font-size: 2.6rem;
+    }
+    
+    .article1 h4{
+        font-size: 1.6rem;
+    }
+    .article1 p{
+        font-size: 1.4rem;
+    }
+    
+    .article1 div {
         font-size: 1.6rem;
     }
     .side{
-        height: 26%;
+        height: 47%;
         width:130%;
     }
-    .side h2{
-        font-size: 1.2rem;
+    .side a{
+        font-size: 2.8rem;
+        margin-left: 1rem;
+        text-align: center;
+    }
+    .side h4{
+        font-size: 1.6rem;
+        margin-left: 1rem;
     }
     .article1 .logo img{
         display:block;
@@ -539,7 +565,7 @@ height:100%;
         height:8rem;
     }
     .news8 h4{
-        font-size: 1rem;
+        font-size: 1.6rem;
     }
     .latest-caption{
         font-size: 1rem;
@@ -685,6 +711,7 @@ padding-top: 0;
 .article1 h4{
     font-weight: bold;
     font-size: 3rem;
+    
 }
 
 .article1 a{
@@ -694,16 +721,19 @@ padding-top: 0;
 .side h4{
 font-weight: bold;
 font-size: 2rem;
+padding-left: 1rem;
 }
 
 .side a{
     font-weight: bold;
     font-size: 2rem;
+    padding-left: 1rem;
 }
 
 .side p{
     font-weight: bold;
     font-size: 1.6rem;
+    padding-left: 1rem;
 }
 .article1 p{
     font-weight: bold;
