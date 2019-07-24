@@ -487,19 +487,12 @@ background-color: black;
       margin-left:12rem;
     }
     
-    .secondnav a{
-       
-    }
-    .logo img{
-        
-    }
     nav .logo{
         display:none;
        
     }
     .sect1{
       width:59%;
-    
     }
     .article1{
 background-image:url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Copy-of-sexist.png), url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png);
@@ -671,12 +664,23 @@ nav ul{
     display:block;
     width:99%;
     padding-top: 0;
-    margin-top: -2.7rem;
+    margin-top: -3.7rem;
 }
 .article1{
-  height:38rem;
+  height:37rem;
   width:90%;
 margin-left: 1rem;
+padding-top: 0;
+}
+.article1 .logo{
+    display:block;
+    position: absolute;
+    margin-top:4rem;
+    left:0;
+}
+.article1 .logo img{
+    height:4rem;
+    padding-bottom:0;
 }
 .article1 h4{
     font-weight: bold;
@@ -813,24 +817,11 @@ padding-left: 5rem;
 .first-footer li:nth-child(3){
 display:none;
 }
-.logo img{
-    position: relative;
-    left:1rem;
-    top:-2rem;
-    margin-bottom: 0;
-    padding-bottom: 0;
-   
-}
- .logo{
-    display:block;
-    width:10%;
-    color:red;
-}
 nav{
-    background-color: #f42;
-    background: linear-gradient(to bottom right,#c09,#f42 85%);
+    background-color:white;
     height:5rem;
-    width:35%;
-    margin-left: 0;
+    width:25%;
+    padding-left: 1rem;
+   
 }
 }
