@@ -3,6 +3,10 @@ font-size: 10px;
 }
 /* BEGIN of styling the header */
 /* styling the nav */
+header{
+   position: sticky;
+   top:-6rem;
+}
 nav ul li{
     display: inline-block;
     font-family: Helvetica, sans-serif;
@@ -15,13 +19,23 @@ nav {
 }
 nav ul li a{
     text-decoration: none;
-    color:white;
+    color:rgb(179, 176, 176);
 }
+
+nav ul li:first-child a{
+    text-decoration: none;
+    color:rgb(179, 176, 176);
+}
+
 nav .logo{
     display:none;
 }
 .fa-bars{
 display: none;
+}
+.secondnav{
+    background: white;
+
 }
 .secondnav ul li{
 display: inline-block;
@@ -87,6 +101,7 @@ font-size: 1.6rem;
     padding-top:1rem;
     padding-bottom: 0.5rem;
     height:20rem;
+    margin: 1rem;
 }
 .side h2
 {
