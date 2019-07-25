@@ -85,7 +85,7 @@ font-size: 1.6rem;
 }
 .article1{
     background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png),url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Copy-of-sexist-796x417.png),url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png);
-   background-size:cover;
+    background-size:cover;
     background-position: right top, right bottom,left bottom;
     background-repeat: no-repeat;
     opacity: 0.9;
@@ -137,17 +137,16 @@ font-size: 1.6rem;
    grid-gap: 1rem;
   background-size: 80rem 40rem;
 }
+.latest-caption{
+    width:90%;
+}
 .latest-caption li {
     display: inline;
     position:relative;
-    left:1rem;
+    left:0rem;
     font-size:1.2rem;
     list-style: none;
-}
-.latest-funding{
-    text-align: start;
-    font-size: 2.8rem;
-    color: #f42;
+    padding-left: 0;
 }
 .latest-funding h2{
     display: flex;
@@ -164,16 +163,10 @@ font-size: 1.6rem;
 .lat-sub a{
     padding-left:1rem;
 }
-.funding-wrapper{
-    width:100%;
-   display: grid;
-   grid-template-columns: repeat(4,29%);
-}
 .funding{
 /* float:left; */
 list-style: none;
 width:95%;
-
 font-size: 1.2rem;
 color: rgb(136, 134, 134);
 background: rgb(250, 223, 223);
@@ -183,6 +176,34 @@ position:relative;
 top:2rem;
 }
 
+.funding-wrapper{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,auto);
+    grid-template-areas: "latest-funding latest-funding latest-funding latest-funding"
+                        "funding1 funding2 funding3 funding4";
+}
+
+.latest-funding{
+    grid-area:latest-funding;
+    text-align: start;
+    font-size: 2.8rem;
+    color: #f42;
+}
+.funding1{
+    grid-area:funding1;
+}
+.funding2{
+    grid-area:funding2;
+}
+.funding3{ 
+
+    grid-area:funding3;
+}
+
+.funding4{
+    grid-area:funding4;
+} 
 .funding h4{
 font-size: 1.8rem;
 font-family: Arial, Helvetica, sans-serif;
@@ -338,7 +359,6 @@ height:20rem;
 
     background-repeat: no-repeat;
     height:20rem;
-
 }
 .more-news3{
     background-image:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/06/bluetooth-540x270.png");
@@ -394,8 +414,8 @@ height:20rem;
     width:11rem;
 }
 .latest-caption li:first-child{
-    width:16rem; 
-    margin-left:0;
+    width:11rem; 
+   
 }
 .story-div h4{
     margin-left:1rem;
