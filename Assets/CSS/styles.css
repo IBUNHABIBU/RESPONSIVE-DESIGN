@@ -534,15 +534,16 @@ background-color: black;
 /*for tablet*/
     
 @media screen and (max-width:768px){
-    nav {
+    header {
+        position: fixed;
      
     }
     .fa-search{
         padding-left: 2rem;
     }
     .secondnav{
-      margin-left:12rem;
-      width:80%;
+     
+      width:100%;
     }
     
     nav .logo{
@@ -555,22 +556,13 @@ background-color: black;
 background-image:url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Copy-of-sexist.png), url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png);
 background-position: left top,center;
 width:100%;
-height:49.9rem;
+height:59rem;
     }
-    .the-head{
-    position: relative;
-    top:9.9rem;
-    }
-    .article1 a{
-        font-size: 2.6rem;
-    }
-    
     .article1 h4{
         font-size: 1.6rem;
-        w
     }
     .article1 p{
-        font-size: 1.4rem;
+      
     }
     
     .article1 div {
@@ -590,15 +582,7 @@ height:49.9rem;
         margin-left: 1rem;
     }
     .article1 .logo img{
-        display:block;
-        width:55%;
-    height:5rem;
-    background-color: #f42;
-    background: linear-gradient(to bottom right,#c09,#f42 85%);
-    padding:2rem;
-    position: relative;
-    top:-11rem;
-        left:-2rem;
+        display:none;
     }
   
     .news{
@@ -677,19 +661,20 @@ height:49.9rem;
         font-size: 1rem;
     }
     .news-latest-main{
-        font-size: 1.1rem;
+        font-size: 1.5rem;
+       
     }
     .latest-div{
-        height:5rem;
+     
         width:100%;
     }
     .latest-div img{
-        width:35%;
-        height:100%;
+        width: 35%;
+        height: 100%;
         position: relative;
-        left:10rem;
+        left: 23rem;
+        top: -16rem;
         margin-top: 5rem;
-    
     }
     .news-latest-head{
         font-size: 1.2rem;
@@ -702,7 +687,7 @@ height:49.9rem;
     }
 .news-with-list{
     display:grid;
-    grid-template-columns:repeat(2,40%);
+    grid-template-columns:repeat(2,50%);
     grid-gap: 1rem;
 }
 footer{
@@ -712,12 +697,12 @@ footer{
 /* Media query for phone */
 @media only screen and (max-width:480px){
     header{
-    
+    width:100%;
     }
 .fa-bars{
-    position: sticky;
+    position: relative;
     font-size: 2rem;
-    right:1rem;
+    right:-12rem;
     color:#FF4422;
     padding:1.6rem;
     top:0.5rem;
@@ -733,8 +718,8 @@ nav ul{
 }
 .fa-search{
     display:block;
-    position: fixed;
-    right:5.9rem;
+    position: relative;
+    right:-9.9rem;
     font-size: 2rem;
     top:0.2rem;
     border-left: 0.01rem solid rgb(236, 236, 236);
