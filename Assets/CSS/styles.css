@@ -623,7 +623,7 @@ display:none;
 @media screen and (max-width: 360px){
     nav {
        width:60rem;
-       background: none;
+       background: white;
     }
     nav ul li a{
         color:white;
@@ -660,25 +660,31 @@ display:none;
     .sect1{
         display:block;
         width:100%;
-        grid-template-columns: 100%;
-        grid-template-columns: repeat(3,auto);
-        grid-template-areas: "article1"
-                            "side1"
-                            "side2";
-
+        
     }
     .side1 img{
         width:100%;
     }
     .side1{
-        grid-area: side1;
-        width:
+      width:60rem;
     }
     .side2{
-        grid-area:side2; 
+        width:60rem;
     }
     .article1{
-        width:100%;
-        grid-area: article1;
+        width:60rem;
+    }
+    .news{
+        display:block;
+    }
+    .funding-wrapper{
+        display:block;
+    }
+    .funding{
+        width:60rem;
+        margin-left: 1rem;
+    }
+    .latest-funding{
+        display:block;
     }
   }
