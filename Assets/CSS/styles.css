@@ -624,6 +624,7 @@ display:none;
     nav {
        width:60rem;
        background: white;
+
     }
     nav ul li a{
         color:white;
@@ -633,10 +634,10 @@ display:none;
     }
     .secondnav{
         display:none;
-
     }
     .logo{
         height:8rem;
+        padding-top: 4rem;
     }
     .fa-bars{
         display:block;
@@ -677,6 +678,23 @@ display:none;
     .news{
         display:block;
     }
+    .news8{
+        float:left;
+    }
+    .news8 img{
+        width:40%;
+        float:left;
+    }
+    .news8 h4{
+        width:60rem;
+        font-size: 2rem;
+    }
+    .latest-caption{
+        width:60rem;
+    }
+    .latest-caption li{
+        font-size: 2rem;
+    }
     .funding-wrapper{
         display:block;
     }
@@ -692,9 +710,8 @@ display:none;
     }
     .lat-sub{
         display:block;
-        width:100%;
         font-size: 1.8rem;
-        
+    
     }
     .stroke{
         display:none;
@@ -702,13 +719,28 @@ display:none;
     .news-with-list{
         display:block;
         width:60rem;
+      
     }
-    .news{
-    
-    }
-    .news-latest-ma
-    }
-    .news-latest-main img{
-
+   .final-articles{
+       display:block;
+   }
+   footer{
+      width:65rem;
+      float:left;
+      font-size: 2.8rem;
+   }
+   .story-title{
+       font-size: 2rem;
+       width: 60rem;
+   }
+   .last-price,.curr-price{
+       font-size: 1.8rem;
+   }
+   .story-div img{
+       width:40%;
+       float: left;
+         }
+    .story-div{
+        float:left;
     }
   }
