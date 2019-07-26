@@ -36,6 +36,7 @@ nav ul li:first-child a{
 .logo{
     display:block;
     background: linear-gradient(to bottom right,#c09,#f42 85%);
+    padding-top: 4rem;
 }
 .fa-bars{
 display: none;
@@ -92,6 +93,7 @@ font-size: 1.6rem;
     width:35%;
     margin-top:0.5rem;
     margin-left: 1.9rem;
+    background: #f42;
 }
 .article1{
     grid-column: 1/2;
@@ -152,7 +154,7 @@ font-size: 1.8rem;
     grid-template-columns:repeat(4,auto);
     list-style: none;
    font-size: 1.4rem;
-   width:15%;
+   width:95%;
    text-align: start;
    grid-gap: 1rem;
 }
