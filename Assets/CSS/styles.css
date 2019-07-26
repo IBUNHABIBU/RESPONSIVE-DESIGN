@@ -687,4 +687,28 @@ display:none;
     .latest-funding{
         display:block;
     }
+    .latest-heading{
+        width:100%;
+    }
+    .lat-sub{
+        display:block;
+        width:100%;
+        font-size: 1.8rem;
+        
+    }
+    .stroke{
+        display:none;
+    }
+    .news-with-list{
+        display:block;
+        width:60rem;
+    }
+    .news{
+    
+    }
+    .news-latest-ma
+    }
+    .news-latest-main img{
+
+    }
   }
