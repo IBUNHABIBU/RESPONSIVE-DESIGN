@@ -20,6 +20,7 @@ nav ul li{
 }
 nav {
     background-color: black;
+    
 
 }
 nav ul li a{
@@ -41,6 +42,7 @@ display: none;
 }
 .secondnav{
     background: white;
+   
 }
 .secondnav ul li{
 display: inline-block;
@@ -114,7 +116,6 @@ font-size: 1.6rem;
     padding-bottom: 0.5rem;
     height:30rem;
     margin: 1rem;
-    width:98%;
 }
 .side h2
 {
@@ -151,10 +152,12 @@ font-size: 1.8rem;
     grid-template-columns:repeat(4,auto);
     list-style: none;
    font-size: 1.4rem;
-   width:95%;
+   width:15%;
    text-align: start;
    grid-gap: 1rem;
-  background-size: 80rem 40rem;
+}
+.news8 img{
+    width:70%;
 }
 /* *********************************LATEST FUNDING************************************************************ */
 /* ******************************BEGIN************************************************************************** */
@@ -543,9 +546,9 @@ background-color: black;
     background: transparent;
     border: 2px solid #333;
 }
-/* ############################ ####END of styling the footer ###########################################################*/
+/* ############################ ####    END of styling the footer   ###########################################################*/
 
-/**************************************************Media query *******************************************************************************/
+/**************************************************     Media query         *******************************************************************************/
 /**************for tablet***********************/
 @media screen and (min-width: 768px) {
     nav{
@@ -615,6 +618,9 @@ display:none;
 .final-articles{
     display:grid;
     grid-template-columns: auto auto auto;
+}
+footer{
+    background: black;
 }
 }
     
