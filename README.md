@@ -8,5 +8,5 @@ The original site is https://thenextweb.com/
 Salum Habibu https://github.com/IBUNHABIBU
 
 ## The live version
-https://raw.githack.com/IBUNHABIBU/RESPONSIVE-DESIGN/development/index.html
+https://raw.githack.com/IBUNHABIBU/RESPONSIVE-DESIGN/master/index.html
 
