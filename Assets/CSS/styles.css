@@ -725,6 +725,10 @@ footer{
         width:60rem;
       
     }
+    .latest-div img{
+       position: relative;
+left:-42rem;
+    }
    .final-articles{
        display:block;
    }
